@@ -1,0 +1,45 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый цвет #FFFFFF */
+/* вторичный цвет фона #2196F3 */
+/* цвет возрата #18a0fb */
+/* цвет кнопок #F5F4FA */
+
+body{background-color: #FFFFFF; color: #212121; font-family: 'Roboto', sans-serif;}
+.logo {color: #2196F3; font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+    letter-spacing: 0.03em;
+text-decoration: none;}
+.logo:hover {color: #18a0fb;}
+/* site nav */
+.site-nav .link {color:#212121}
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+.site-nav .link:hover, .site-nav .link:focus {color: #212121; text-decoration: none;}
+/* Hero */
+.hero-title {color: #FFFFFF;background-color:#2F303A; cursor: pointer;}
+/* Button */
+.button {color:#FFFFFF; background-color: #2196F3;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+text-decoration: none;
+cursor: pointer;}
+.button.primary {color:#FFFFFF;background-color: #2196F3; cursor: pointer;}
+.button.secondary {color:#212121; background-color:#F5F4FA ; cursor: pointer;}
+/* Section */
+.section-title {color: #212121;}
+/* Features */
+.feature-list .title {color:#212121}
