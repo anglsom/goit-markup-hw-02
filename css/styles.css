@@ -5,27 +5,37 @@
 /* цвет возрата #18a0fb */
 /* цвет кнопок #F5F4FA */
 
-body{background-color: #FFFFFF; color: #212121; font-family: 'Roboto', sans-serif;}
-.logo {color: #2196F3; font-family: 'Raleway', sans-serif; 
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --primary-white-color:#ffffff;
+    --accent-color:#18a0fb;
+}
+
+body{background-color:var(--primary-white-color); color:var(--title-text-color); font-family: 'Roboto', sans-serif; text-decoration: none;}
+.logo {color: var(--accent-color); font-family: 'Raleway', sans-serif; 
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     
     letter-spacing: 0.03em;
 text-decoration: none;}
-.logo:hover {color: #18a0fb;}
+.a {text-decoration: none;}
+.logo:hover {color:var(--accent-color);}
 /* site nav */
-.site-nav .link {color:#212121}
+.site-nav .link {color:var(--title-text-color)
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-.site-nav .link:hover, .site-nav .link:focus {color: #212121; text-decoration: none;}
+text-decoration:none;}
+.site-nav .link:hover, .site-nav .link:focus { color: var(--primary-text-color); text-decoration: none; background-color: #f8f8ff;}
 /* Hero */
-.hero-title {color: #FFFFFF;background-color:#2F303A; cursor: pointer;}
+.hero-title {color: var(--primary-white-color);background-color:var(--title-text-color); cursor: pointer; text-align: center;}
+.title-first {color:var(--title-text-color);background-color: var(--primary-white-color);cursor: pointer;text-align: center;}
 /* Button */
-.button {color:#FFFFFF; background-color: #2196F3;
+.button {color:var(--primary-white-color); background-color: var(--accent-color);
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -36,10 +46,14 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.06em;
 text-decoration: none;
-cursor: pointer;}
-.button.primary {color:#FFFFFF;background-color: #2196F3; cursor: pointer;}
-.button.secondary {color:#212121; background-color:#F5F4FA ; cursor: pointer;}
+cursor: pointer;
+text-align: center;}
+.button.primary {color:var(--primary-white-color);background-color: var(--accent-color); cursor: pointer; text-align: center;}
+.button.primary:hover{background-color: #f8f8ff;}
+.button.secondary {color:var(--title-text-color); background-color: var(--primary-text-color) ;cursor: pointer;}
+.button.secondary:hover{background-color: #f8f8ff;}
 /* Section */
-.section-title {color: #212121;}
+.section-title {color: var(--title-text-color);}
 /* Features */
-.feature-list .title {color:#212121}
+.feature-list .title {color:var(--title-text-color)}
+
