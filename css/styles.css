@@ -5,6 +5,7 @@
 /* цвет возрата #18a0fb */
 /* цвет кнопок #F5F4FA */
 
+
 :root {
     --primary-text-color:#757575;
     --title-text-color:#212121;
@@ -98,10 +99,9 @@ text-align: center;}
 .button.secondary:hover{background-color: #f8f8ff;}
 
 /* Section-pr */
-
-.section-title {color: var(--title-text-color);
-    background-color: var(--primary-white-color);
-    cursor: pointer;
+.section-title-pr{background-color: var(--primary-white-color);}
+.section-pr{ background-color:var(--primary-white-color);}
+.title-pr{color: var(--title-text-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -110,17 +110,14 @@ text-align: center;}
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-.text{font-family: 'Roboto';
+.text-pr{color: var(--primary-text-color);
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    text-transform: none;
-color: var(--primary-text-color);
-background-color: var(--primary-white-color);}
-
-
+text-transform: none;}
 
 /* Section-do */
 
